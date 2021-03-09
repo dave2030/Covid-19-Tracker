@@ -19,7 +19,7 @@ class App extends Component{
   render(){
     return(
       <div>
-        <button onClick={this.increase}>Increase the count</button>
+        <button onClick={this.increase}>Stephen's Height</button>
       
         {this.state.count}
       </div>
