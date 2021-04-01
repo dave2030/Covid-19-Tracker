@@ -1,17 +1,31 @@
 <!DOCTYPE html>
 <html>
-
-    <title>WebPage</title>
+<head>
+    <title>Covid 19 Tracker</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-   <head>
-   <body>
-     <div class =header>
-      <header>Canada Covid 19 Tracker<header>
-      </div>
-    <div class="grouped-headings"> <h1>Daily Change</h1>
-        <h2>COVID 19 Alert</h2></div>
-   
+</head>
+    <h2>Covid 19 Tracker</h2>
+    <h3>Log In </h3><br>
+    <form id="login" method="get" action="login.php">    
+        <label><b>User Name     
+        </b>    
+        </label>    
+        <input type="text" name="Uname" id="Uname" placeholder="Username">    
+        <br><br>    
+        <label><b>Password     
+        </b>    
+        </label>    
+        <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+        <br><br>    
+        <input type="button" name="log" id="log" value="Log In Here">       
+        <br><br>    
+        <input type="checkbox" id="check">    
+        <span>Remember me</span>    
+        <br><br>    
+        Forgot <a href="#">Password</a>    
+    </form>     
 
+   <body>
    <form>
     <button>
         <span>Overview</span>
@@ -31,10 +45,5 @@
         <span>Coping</span>
     </button>
   </form>
-
-
-
-
-     </head>
   </body>
 </html>
